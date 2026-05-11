@@ -14,3 +14,8 @@
   border-radius: 50%;
   box-shadow: 0 10px 24px rgb(0 0 0 / 18%);
 }
+
+.whatsapp-button svg {
+  width: 34px;
+  height: 34px;
+}

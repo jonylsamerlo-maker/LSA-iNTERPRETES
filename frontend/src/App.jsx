@@ -17,9 +17,39 @@ import Contacto from './pages/Contacto/Contacto.jsx';
 
 import './styles/global.css';
 
+const fallbackServicios = [
+  {
+    id: 'interpretacion',
+    titulo: 'Interpretacion en LSA',
+    imagenIcono: '/imagenes/interpetacion.png',
+    videoPreview: 'https://res.cloudinary.com/dazrigpz7/video/upload/v1778451849/VID-20260510-WA0043_cr7r59.mp4',
+    videoExplicativo: 'https://res.cloudinary.com/dazrigpz7/video/upload/v1778451849/VID-20260510-WA0043_cr7r59.mp4',
+    youtubeId: 'dQw4w9WgXcQ',
+    precio: 12000
+  },
+  {
+    id: 'capacitacion',
+    titulo: 'Judicial',
+    imagenIcono: '/imagenes/juzgado.jpg',
+    videoPreview: 'https://res.cloudinary.com/dazrigpz7/video/upload/v1778451849/VID-20260510-WA0042_ri8f5y.mp4',
+    videoExplicativo: 'https://res.cloudinary.com/dazrigpz7/video/upload/v1778451849/VID-20260510-WA0042_ri8f5y.mp4',
+    youtubeId: 'dQw4w9WgXcQ',
+    precio: 18000
+  },
+  {
+    id: 'subtitulado',
+    titulo: 'Medico',
+    imagenIcono: '/imagenes/medico.webp',
+    videoPreview: 'https://res.cloudinary.com/dazrigpz7/video/upload/v1778451848/VID-20260510-WA0041_ufhafa.mp4',
+    videoExplicativo: 'https://res.cloudinary.com/dazrigpz7/video/upload/v1778451848/VID-20260510-WA0041_ufhafa.mp4',
+    youtubeId: 'dQw4w9WgXcQ',
+    precio: 15000
+  }
+];
+
 function App() {
 
-  const [servicios, setServicios] = useState([]);
+  const [servicios, setServicios] = useState(fallbackServicios);
 
   useEffect(() => {
 
@@ -42,7 +72,7 @@ function App() {
 
       .then(data => setServicios(data))
 
-      .catch(() => setServicios([]));
+      .catch(() => setServicios(fallbackServicios));
 
   }, []);
 
