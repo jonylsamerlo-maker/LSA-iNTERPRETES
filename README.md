@@ -1,3 +1,5 @@
+<img width="1366" height="768" alt="uno" src="https://github.com/user-attachments/assets/78473cff-2dcb-4594-961c-cc070d261fec" />
+<img width="1366" height="768" alt="2" src="https://github.com/user-attachments/assets/587954e2-60dd-404d-b71a-e4fc60e91c59" />
 # LSA Accesibles
 
 Aplicacion web desarrollada con React orientada a mejorar la accesibilidad mediante Lengua de Senas Argentina (LSA).
