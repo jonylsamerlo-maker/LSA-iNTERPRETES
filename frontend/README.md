@@ -197,7 +197,7 @@ VITE_API_URL=http://localhost:3000
 ## Clonar repositorio
 
 ```bash
-git clone <repositorio>
+git clone https://github.com/jonylsamerlo-maker/LSA-iNTERPRETES.git
 ```
 
 ---
@@ -205,6 +205,7 @@ git clone <repositorio>
 ## Instalar dependencias
 
 ```bash
+cd LSA-iNTERPRETES/frontend
 npm install
 ```
 
