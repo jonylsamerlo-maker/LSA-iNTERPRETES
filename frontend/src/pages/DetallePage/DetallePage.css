@@ -1,0 +1,24 @@
+.detail-page {
+  text-align: center;
+}
+
+.detail-page__video-box {
+  width: min(420px, 90vw);
+  aspect-ratio: 9 / 16;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: #111;
+  border-radius: 8px;
+}
+
+.detail-page__video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.detail-page__back {
+  color: #007bff;
+  font-weight: 700;
+  text-decoration: none;
+}
