@@ -11,7 +11,7 @@
     },
     {
       "id": "capacitacion",
-      "titulo": "JUdicial",
+      "titulo": "Judicial",
       "imagenIcono":  "/imagenes/juzgado.jpg",
       "videoPreview": "https://res.cloudinary.com/dazrigpz7/video/upload/v1778451849/VID-20260510-WA0042_ri8f5y.mp4",
       "videoExplicativo": "https://res.cloudinary.com/dazrigpz7/video/upload/v1778451849/VID-20260510-WA0042_ri8f5y.mp4",
@@ -20,7 +20,7 @@
     },
     {
       "id": "subtitulado",
-      "titulo": "medico",
+      "titulo": "Medico",
       "imagenIcono":  "/imagenes/medico.webp",
       "videoPreview": "https://res.cloudinary.com/dazrigpz7/video/upload/v1778451848/VID-20260510-WA0041_ufhafa.mp4",
       "videoExplicativo": "https://res.cloudinary.com/dazrigpz7/video/upload/v1778451848/VID-20260510-WA0041_ufhafa.mp4",
